@@ -19,10 +19,3 @@ class seer_sort():
                 self.alist[j] = temp
             gap //= 2 
         return self.alist
-    
-list_test = []
-for l in range(20):
-    list_test.append(random.randint(1,100))
-print(list_test)
-seer = seer_sort(list_test)
-print(seer.seer_sort())

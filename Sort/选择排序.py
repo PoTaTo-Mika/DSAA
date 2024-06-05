@@ -11,12 +11,5 @@ class select_sort():
                 if self.alist[i] < self.alist[k]:
                      self.alist[i], self.alist[k] = self.alist[k], self.alist[i]
         return self.alist
-list_test = []
-for l in range(20):
-    list_test.append(random.randint(1,100))
-print(list_test)
-sort = select_sort(list_test)
-print(sort.select_sort())
-                    
-                
+
                 
