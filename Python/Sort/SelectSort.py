@@ -1,6 +1,6 @@
 #-*- coding:UTF-8 -*-
 import random
-class select_sort():
+class SelectSort():
     def __init__(self,alist):
         self.alist = alist
     def select_sort(self):
